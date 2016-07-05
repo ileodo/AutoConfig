@@ -1,0 +1,54 @@
+#####################
+# Dependences Tools #
+#####################
+
+## Command Line Tools for Xcode
+xcode-select --install
+
+## Install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+## Install brew-cask
+brew tap caskroom/cask
+
+## Install Foundation Formulars
+brew install zsh git vim mackup
+
+## Install Dropbox to synchronize
+brew cask install dropbox
+
+##################
+# Apps and Tools #
+##################
+
+## Install Casks application
+### tools
+brew cask install seil appcleaner keka go2shell alfred iterm2 teamviewer
+### general apps
+brew cask install mplayerx neteasemusic thunder aliwangwang calibre
+### dev apps
+brew cask install intellij-idea clion sublime-text texpad
+### Google
+brew cask install google-drive google-chrome google-hangouts
+### Omni
+brew cask install omnigraffle omnioutliner omnifocus
+
+## Install Application in Mac App Store
+
+## Install Application Mannually
+### Adobe Lightroom
+### One Drive
+
+
+
+## Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+###################
+# Dev Environment #
+###################
+
+## Developing Env
+brew install python rbenv nvm caskroom/cask/java
+
+## Mackup
